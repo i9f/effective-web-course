@@ -1,0 +1,4 @@
+@import "./global/fonts.css";
+@import "./global/reset.css";
+@import "./global/base.css";
+@import "./sections/header.css";

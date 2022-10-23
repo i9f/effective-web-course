@@ -1,0 +1,14 @@
+body {
+  font-family: "Inter";
+}
+
+.btn {
+  padding: 8px 16px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  background: #6C5CE7;
+  color: #fff;
+  border-radius: 16px;
+}
