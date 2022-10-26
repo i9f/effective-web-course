@@ -1,6 +1,9 @@
 body {
   font-family: "Inter";
 }
+.container {
+  width: 1016px;
+}
 
 .btn {
   padding: 8px 16px;
@@ -8,7 +11,26 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
-  background: #6C5CE7;
+  background: #6c5ce7;
   color: #fff;
   border-radius: 16px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 104px;
+  letter-spacing: -3px;
+  text-align: center;
+  color: #2d3436;
+  text-shadow: 0px 4px 0px #ffffff;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #2d3436;
 }
