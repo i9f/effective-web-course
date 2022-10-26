@@ -1,0 +1,120 @@
+.home {
+  position: relative;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.home::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url(/image/home/Shape.png) no-repeat;
+  width: 1440px;
+  height: 100%;
+  z-index: -3;
+}
+.home::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -18px;
+  background: url(/image/home/Dots.svg) no-repeat;
+  width: 209px;
+  height: 100%;
+  z-index: -2;
+}
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+.home__title h1 {
+  padding-bottom: 16px;
+}
+.home__title h2 {
+  margin-bottom: 64px;
+}
+.home__title span {
+  position: relative;
+  color: #d63031;
+  border-radius: 9px;
+}
+.home__title span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -6%;
+  width: 112%;
+  height: 45%;
+  background-color: #55efc4;
+  border-radius: 999px;
+  z-index: -1;
+}
+.home__panels {
+  display: grid;
+  grid-template-columns: 270px 270px 170px 170px 170px;
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: 30px;
+}
+.home__panels > * {
+  border-radius: 20px;
+}
+.home__panels p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.home__text-1 {
+  align-self: start;
+}
+.home__text-2 {
+  align-self: end;
+  grid-column: 4 / span 2;
+}
+.home__panel-1 {
+  background-color: red;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 3;
+}
+.home__panel-2 {
+  background-color: #6c5ce7;
+  grid-column: 1 / 2;
+  grid-row: 2 / span 4;
+  align-items: end;
+}
+.home__panel-3 {
+  background-color: pink;
+  grid-row: 2 / span 2;
+}
+.home__panel-4 {
+  background-color: pink;
+  grid-row: 2 / span 2;
+}
+.home__panel-5 {
+  background-color: pink;
+  grid-column: 2;
+  grid-row: 4 / span 3;
+}
+.home__panel-6 {
+  background-color: pink;
+  grid-column: 3 / span 2;
+  grid-row: 4 / span 3;
+}
+.home__panel-7 {
+  background-color: pink;
+  grid-column: 5;
+  grid-row: 4 / span 2;
+}
+.home__btn {
+  max-height: 82px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #6c5ce7;
+  background-color: #fff;
+  box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1),
+    0px 16px 32px rgba(38, 50, 56, 0.08);
+  grid-column: 1 /1;
+}
