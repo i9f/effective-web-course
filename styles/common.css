@@ -3,3 +3,6 @@
 @import "./global/base.css";
 @import "./sections/header.css";
 @import "./sections/home.css";
+@import "./sections/delivery.css";
+@import "./sections/sub.css";
+@import "./sections/footer.css";

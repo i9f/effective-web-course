@@ -1,8 +1,21 @@
+:root {
+  --base-black: #2d3436;
+  --base-white: #fff;
+  --title-hightlight: #d63031;
+  --hightlight: #6c5ce7;
+  --sub-text: #adadad;
+  --sub-chbox: #fdcb6e;
+}
 body {
   font-family: "Inter";
+  color: var(--bace-black);
+  box-sizing: border-box;
 }
+
 .container {
-  width: 1016px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
 }
 
 .btn {
@@ -11,9 +24,10 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
-  background: #6c5ce7;
+  background: var(--hightlight);
   color: #fff;
   border-radius: 16px;
+  letter-spacing: 0.25px;
 }
 
 h1 {
@@ -22,7 +36,6 @@ h1 {
   line-height: 104px;
   letter-spacing: -3px;
   text-align: center;
-  color: #2d3436;
   text-shadow: 0px 4px 0px #ffffff;
 }
 
@@ -32,5 +45,19 @@ h2 {
   line-height: 77px;
   text-align: center;
   letter-spacing: -1px;
-  color: #2d3436;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.5px;
 }

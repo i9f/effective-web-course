@@ -1,0 +1,128 @@
+.sub {
+  padding: 74px 0 80px;
+}
+.sub__title-text {
+  color: var(--sub-text);
+  margin-bottom: 40px;
+}
+.sub__title-text span:hover {
+  position: relative;
+  color: var(--hightlight);
+}
+.sub__title-text span:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45%;
+  background-color: var(--sub-chbox);
+  border-radius: 999px;
+  z-index: -1;
+}
+.sub__blocks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sub__block {
+  max-width: 370px;
+  max-height: 536px;
+  padding: 32px;
+  padding-bottom: 82px;
+  position: relative;
+  background-color: var(--base-white);
+}
+.sub__block:not(:last-child) {
+  margin-right: 30px;
+}
+.sub__description {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: var(--hightlight);
+  margin-bottom: 16px;
+}
+.sub__price {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 14.52px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+.sub__h3 {
+  display: inline;
+  text-transform: capitalize;
+}
+.sub__list {
+  margin-top: 24px;
+}
+.sub__el {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 48px;
+}
+.sub__el::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  transform: translate(-48px, -50%);
+  border-radius: 999px;
+}
+.free::before {
+  background: url(/image/sub/free-chbox.svg);
+}
+.month::before {
+  background: url(/image/sub/month-chbox.svg);
+}
+.editor::before {
+  background: url(/image/sub/editor-chbox.svg);
+}
+.position {
+  position: absolute;
+  bottom: 32px;
+  width: calc(100% - 60px);
+}
+.sub__btn {
+  background-color: var(--base-white);
+  color: var(--hightlight);
+  border: 1px solid var(--sub-text);
+  letter-spacing: 0.2px;
+}
+.sub__mounth-btn {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+}
+
+/*month block*/
+
+.sub__month {
+  border-radius: 16px;
+  box-shadow: 0px 16px 8px rgba(38, 50, 56, 0.12);
+}
+.sub__month::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  width: 200px;
+  height: 126px;
+  background-image: url(/image/sub/Wiggle.png);
+  z-index: -1;
+}
+.description-month {
+  display: flex;
+  justify-content: space-between;
+}
+.description-btn {
+  width: 90px;
+  height: 32px;
+  padding: 8px 20px;
+  color: var(--base-black);
+  border: 1px solid var(--hightlight);
+  border-radius: 999px;
+}
