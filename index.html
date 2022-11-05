@@ -12,6 +12,9 @@
     <header class="header">
       <div class="container header__container">
         <div class="header__logo">
+          <button class="header__mobile-btn">
+            <span class="header__mobile-icon"></span>
+          </button>
           <img src="./image/header/icon-layout.svg" alt="website logo" />
           <span>Grid</span>
         </div>
@@ -33,24 +36,61 @@
             <h1>Combine <span>fine</span> images</h1>
             <h2>To represent a product</h2>
           </div>
+          <div class="home__mobile-btn">
+            <a href="#panels" class="home__arrow"><img src="/image/home/Arrow.svg" alt="down arrow"></a>
+          </div>
           <div class="grid-container">
-            <div class="home__panels">
+            <div id="panels" class="home__panels">
               <p class="home__text-1">
                 Use mixed grid with imagery, replace with your own photos and
                 descriptions
               </p>
-              <div class="home__panel-1"></div>
+              <div class="home__panel-1">
+                <picture>
+                  <img src="/image/home/grid-blocks/block-1_x1.png" srcset="/image/home/grid-blocks/block-1_x2.png 2x" alt="man giving presentation">
+                </picture>  
+                <h3 class="home__panel-1-text panel-text">Consider it done!</h3>
+              </div>
               <p class="home__text-2">
                 This is multipurpose grid, it fits for portfolio, services or
                 agency web site
               </p>
-              <div class="home__panel-2"></div>
-              <div class="home__panel-3"></div>
-              <div class="home__panel-4"></div>
-              <div class="home__panel-5"></div>
-              <div class="home__panel-6"></div>
-              <div class="home__panel-7"></div>
-              <button class="btn white-btn home__btn">Learn more</button>
+              <div class="home__panel-2">
+                <picture>
+                  <img src="/image/home/grid-blocks/block-2_x1.png" srcset="/image/home/grid-blocks/block-2_x2.png 2x" alt="colored ball on a black background">
+                </picture>
+                <p class="home__panel-2-title">We aimed to deliver HQ templates for Figma</p>
+                <p class="home__panel-2-text">Used by 123 people</p>
+              </div>
+              <div class="home__panel-3">
+                <picture>
+                  <img src="/image/home/grid-blocks/block-3_x1.png" srcset="/image/home/grid-blocks/block-3_x2.png 2x" alt="letter a">
+                </picture>
+              </div>
+              <div class="home__panel-4">
+                <picture>
+                  <img src="/image/home/grid-blocks/block-4_x1.png" srcset="/image/home/grid-blocks/block-4_x2.png 2x" alt="sneaker">
+                </picture>
+              </div>
+              <div class="home__panel-5">
+                <picture>
+                  <img src="/image/home/grid-blocks/block-5_x1.png" srcset="/image/home/grid-blocks/block-5_x2.png 2x" alt="magazine">
+                </picture>
+              </div>
+              <div class="home__panel-6"> 
+                <picture>
+                  <img src="/image/home/grid-blocks/block-6_x1.png" srcset="/image/home/grid-blocks/block-6_x2.png 2x" alt="girl eating from her finger">
+                </picture>
+                <h3 class="home__panel-6-text panel-text">See my goal?</h3>
+              </div>
+              <div class="home__panel-7">
+                <picture>
+                  <img src="/image/home/grid-blocks/block-7_x1.png" srcset="/image/home/grid-blocks/block-7_x2.png 2x" alt="windows">
+                </picture>
+              </div>
+              <div class="home__panel-8">
+                <button class="btn home__btn">Learn more</button>
+              </div>
             </div>
           </div>
         </div>
@@ -59,7 +99,7 @@
         <div class="container">
           <div class="delivery__titleblock">
             <h4 class="delivery__title">
-              Delivering good designs since 1954 🚚💨
+              Delivering good designs <span> since 1954</span> 🚚💨
             </h4>
             <p class="delivery__title-text">
               We’re the first multi-purpose design kit solutions for businesses.
@@ -79,7 +119,7 @@
                   screens and cool design systems for Figma
                 </p>
               </div>
-              <button class="btn white-btn">Learn more</button>
+              <button class="btn white-btn delivery__btn">Learn more</button>
             </div>
             <div class="delivery__block">
               <div class="delivery__icon">
@@ -92,7 +132,7 @@
                   messaging and AI-based Sales Bot
                 </p>
               </div>
-              <button class="btn white-btn">Learn more</button>
+              <button class="btn white-btn delivery__btn">Learn more</button>
             </div>
             <div class="delivery__block">
               <div class="delivery__icon">
@@ -105,7 +145,7 @@
                   screens and cool design systems for Figma
                 </p>
               </div>
-              <button class="btn white-btn">Learn more</button>
+              <button class="btn white-btn delivery__btn">Learn more</button>
             </div>
             <div class="delivery__block">
               <div class="delivery__icon">
@@ -118,7 +158,7 @@
                   outlined stroke to more bolder or lighter
                 </p>
               </div>
-              <button class="btn white-btn">Learn more</button>
+              <button class="btn white-btn delivery__btn">Learn more</button>
             </div>
           </div>
         </div>
@@ -218,7 +258,7 @@
             <h4 class="footer__email-text">hello@fapsterapp.com</h4>
           </div>
         </div>
-        <div class="footer__item">
+        <div class="footer__item footer__mobile">
           <div class="footer__links">
             <span class="footer__title">information</span>
             <ul class="footer__list">
