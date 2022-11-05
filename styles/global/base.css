@@ -5,10 +5,11 @@
   --hightlight: #6c5ce7;
   --sub-text: #adadad;
   --sub-chbox: #fdcb6e;
+  --input: rgb(194, 194, 194, 0.24);
 }
 body {
   font-family: "Inter";
-  color: var(--bace-black);
+  color: var(--base-black);
   box-sizing: border-box;
 }
 
@@ -28,6 +29,12 @@ body {
   color: #fff;
   border-radius: 16px;
   letter-spacing: 0.25px;
+}
+.white-btn {
+  background-color: var(--base-white);
+  color: var(--hightlight);
+  border: 1px solid var(--sub-text);
+  letter-spacing: 0.2px;
 }
 
 h1 {

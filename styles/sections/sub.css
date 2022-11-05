@@ -86,12 +86,6 @@
   bottom: 32px;
   width: calc(100% - 60px);
 }
-.sub__btn {
-  background-color: var(--base-white);
-  color: var(--hightlight);
-  border: 1px solid var(--sub-text);
-  letter-spacing: 0.2px;
-}
 .sub__mounth-btn {
   font-size: 24px;
   line-height: 36px;
