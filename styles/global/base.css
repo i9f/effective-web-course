@@ -6,6 +6,7 @@
   --sub-text: #adadad;
   --sub-chbox: #fdcb6e;
   --input: rgb(194, 194, 194, 0.24);
+  --mobile-btn: #5c5c5c;
 }
 body {
   font-family: "Inter";
@@ -67,4 +68,20 @@ h4 {
   line-height: 48px;
   text-align: center;
   letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 930px) {
+  h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+  }
 }
