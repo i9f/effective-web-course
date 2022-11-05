@@ -25,9 +25,8 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.delivery__block {
-}
 .delivery__icon {
+  margin-bottom: 24px;
 }
 .delivery__textblock {
   margin-bottom: 8px;
