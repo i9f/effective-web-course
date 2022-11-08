@@ -1,0 +1,92 @@
+:root {
+  --base-black: #2d3436;
+  --base-white: #fff;
+  --title-hightlight: #d63031;
+  --hightlight: #6c5ce7;
+  --sub-text: #adadad;
+  --sub-chbox: #fdcb6e;
+  --input: rgb(194, 194, 194, 0.24);
+  --mobile-btn: #5c5c5c;
+}
+
+body {
+  font-family: "Inter";
+  color: var(--base-black);
+  box-sizing: border-box;
+}
+
+body.hidden {
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  background: var(--hightlight);
+  color: #fff;
+  border-radius: 16px;
+  letter-spacing: 0.25px;
+}
+.white-btn {
+  background-color: var(--base-white);
+  color: var(--hightlight);
+  border: 1px solid var(--sub-text);
+  letter-spacing: 0.2px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 104px;
+  letter-spacing: -3px;
+  text-align: center;
+  text-shadow: 0px 4px 0px #ffffff;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 930px) {
+  h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+  }
+}
